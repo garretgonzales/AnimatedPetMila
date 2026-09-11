@@ -1,0 +1,54 @@
+# Local secrets
+.env
+.env.*
+!.env.example
+!.env.sample
+*.pem
+*.key
+
+# Dependencies, caches, and build output
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.cache/
+build/
+dist/
+coverage/
+*.egg-info/
+
+# Temporary generation and release output
+tmp/
+temp/
+scratch/
+generated_images/
+decoded/
+qa/
+*.log
+*.tmp
+*.swp
+*.bak
+*~
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Local agent instructions, metadata, and conversation exports
+AGENTS.md
+AGENTS.local.md
+.codex/
+.agents/
+.claude/
+.agent-tmp/
+sessions/
+rollouts/
+
+# Keep published assets, manifests, docs, and lockfiles versionable.
