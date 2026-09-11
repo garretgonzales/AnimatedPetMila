@@ -2,7 +2,7 @@
 
 # Mila
 
-**A little Newfoundland. A loyal coding companion.**
+**A Newfoundland. A loyal coding companion.**
 
 Pixel-art black fur, warm brown eyes, and a signature pink bandana.
 
